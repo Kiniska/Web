@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+	<header>
+		<h1> Самый гроикий заголовок </h1>
+		<h3> Не столь громкий заголовок </h3>
+	</header>
+
+	<nav>
+		<ul>
+			<li> <a href="#"> Домашняя страница </a></li>
+			<li> <a href="#"> Услуги </a></li>
+			<li> <a href="#"> О нашей компании </a></li>
+
+		</ul>
+	</nav>
+
+	<article>
+		<h1> Заголовок статьи </h1>
+		<p> содержимое элемента article </p>
+	</article>
+
+	<article>
+		<h1> Добро пожаловать! </h1>
+		<section>
+			<h1> Заголовок </h1>
+			<p> Некоторый текст </p>
+		</section>
+	</article>
+
+	<article>
+		<h1> Подарки на любой вкус! </h1>
+		<p> На этом веб-сайте Вы найдете лучшие в мире подарки! </p>
+		<aside>
+			<p> Доставка в течении 24 часов. </p>
+		</aside>
+	</article>
+
+	<audio src="audio.mp3" controls=""> Элемент audio не поддерживается Вашим браузером	</audio>
+	<br />
+	<audio controls="">
+		<source src="audio.mp3" type="audio/mpeg">
+		<source src="audio.ogg" type="audio/ogg"> Элемент audio не поддерживается Вашим браузером	
+	</audio>
+	<br />
+	<audio controls autoplay></audio>
+	<br />
+	<audio controls autoplay loop></audio>
+	<br />
+
+	<video>
+		<source src="video.mp4" type="video/mp4">
+		<source src="video.ogg" type="video/ogg"> 
+			видео не поддерживается Вашим браузером
+	</video>
+
+	<br />
+
+	<video controls autoplay loop>
+		<source src="video.mp4" type="video/mp4">
+		<source src="video.ogg" type="video/ogg">
+			видео не поддерживается Вашим браузером
+	</video>
+
+	<br />
+
+	<h1>
+	Статус: <progress min="0" max="100" value="35"></progress>
+	</h1>
+
+	<br />
+
+	<svg width="200" height="200">
+   		<circle cx="80" cy="80" r="80" fill="green" />
+	</svg>
+
+	<br />
+
+	<svg width="200" height="200">
+    	<rect width="300" height="100" 
+     	x="20" y="20" fill="green" />
+ 	</svg>
+
+ 	<br />
+
+ 	<svg width="400" height="410">
+    <line x1="10" y1="10" x2="200" y2="100" 
+        style="stroke:#000000; stroke-linecap:round; 
+        stroke-width:20"  />
+	</svg>
+
+	<br />
+
+	<svg width="200" height="200">
+    <polyline style="stroke-linejoin:miter; stroke:black; 
+        stroke-width:12; fill: none;"
+        points="100 100, 150 150, 200 100" />
+	</svg>
+
+	<br />
+
+	<svg height="500" width="1000">
+   	<ellipse cx="200" cy="100" rx="150" ry="70" style="fill:green" />
+	</svg>
+
+	<br />
+
+	<svg width="200" height="200">
+	<polygon points="100 100, 200 200, 300 0" 
+      style="fill: green; stroke:black;" />
+	</svg>
+
+	<br />
+
+	<svg width="1000" height="250">
+    <rect width="150" height="150" fill="orange">
+        <animate attributeName="x" from="0" to="300"
+      dur="3s" fill="freeze" repeatCount="2"/> 
+    </rect>
+	</svg>
+
+	<br />
+
+	<svg width="500" height="500">
+	<path d="M 0 0 L200 200 L200 0 Z" style="stroke:#000;  fill:none;" />
+	</svg>
+
+	<br />
+
+
+	<canvas id="canvas1" width="400" height="300">
+    </canvas> 
+    <script>
+        var c=document.getElementById("canvas1");
+        var ctx=c.getContext("2d");
+        ctx.fillRect(20,20,100,100);
+    </script>
+
+    <br />
+
+    <canvas id="canvas1" width="400" height="300">
+    </canvas> 
+        <script>
+            var canvas=document.getElementById("canvas1");
+            var ctx=canvas.getContext("2d");
+            ctx.fillStyle ="rgba(0, 200, 0, 1)";
+            ctx.fillRect (36, 10, 22, 22);
+        </script>
+
+
+
+</body>
+</html>
