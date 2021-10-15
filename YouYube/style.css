@@ -1,5 +1,8 @@
+	/*комментарий*/
 	table {
 				color: green;
+				border-radius: 8px;
+				border:2px solid red;
 			}
 
 	b[height="50px"] {
@@ -14,7 +17,7 @@
 		font-weight: bold;}
 
 	html tr {
-		color: yellow;
+		color: brown;
 	}
 
 	.list > li {
