@@ -26,3 +26,82 @@ p.cursive {
 p.fantasy {
     font-family: Blippo, fantasy;
 }
+
+/*разные размеры шрифтов ниже */
+
+p.small {
+    font-size: small;
+}
+p.medium {
+    font-size: medium;
+}
+p.large {
+    font-size: large;
+}
+p.xlarge {
+    font-size: x-large;
+}
+
+h1 { font-size: 50px;}
+
+p.italic {
+    font-style: italic;
+}
+
+/* курсивное начертание*/
+
+p.normal {
+    font-style: normal;
+}
+p.italic {
+    font-style: italic;
+}
+p.oblique {
+    font-style: oblique;
+}
+
+/*толщина текста,шрифта */
+
+p.light {   
+    font-weight: lighter;
+}
+p.bold {   
+    font-weight: bold;
+}
+p.bolder {
+    font-weight: bolder;
+}
+
+/*толщина текста,шрифта */
+
+p.light {
+    font-weight: lighter;
+}
+p.thick {
+    font-weight: bold;
+}
+p.thicker {
+    font-weight: 700;
+}
+
+/* конвертация шрифта в маленькие заглавные буквы */
+
+p.normal {
+    font-variant: normal;
+}
+p.small {
+    font-variant: small-caps;
+}
+
+/* цвета */
+p.example {
+    color: green;
+}
+
+/* заголовок голубой, параграф красный */
+h1 {
+    color: #0000FF;
+}
+p.example {
+    color: rgb(255,0,0);
+}
