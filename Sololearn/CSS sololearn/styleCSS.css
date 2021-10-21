@@ -105,3 +105,82 @@ h1 {
 p.example {
     color: rgb(255,0,0);
 }
+
+/* текст выровнен по краю... горизонтальное расположенте*/
+
+p.left {
+    text-align: left;
+}
+p.right {
+    text-align: right;
+}
+p.center {
+    text-align: center;
+}
+
+/*вертикальное положение*/
+
+td.top {
+    vertical-align: top;
+}
+td.middle {
+    vertical-align: middle;
+}
+td.bottom {
+    vertical-align: bottom;
+}
+
+/*  */
+
+span.baseline {
+    vertical-align: baseline;
+}
+span.sub {
+    vertical-align: sub;
+}
+span.super {
+    vertical-align: super;
+}
+span.pixel {
+    vertical-align: -10px;
+}
+
+/* */
+
+.main {
+    height: 150px; width: 400px; 
+    background-color: lightskyblue; 
+    display: inline-table;
+}
+.paragraph {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/* декорация текста Свойство text-decoration*/
+
+p.none {
+    text-decoration: none;
+}
+p.inherit {
+    text-decoration: inherit;
+}
+p.overline {
+    text-decoration: overline;
+}
+p.underline {
+    text-decoration: underline;
+}
+p.line-through {
+    text-decoration: line-through;
+}
+
+/* Свойство text-shadow */
+
+h1 {
+    color: blue;
+    font-size: 30pt;
+    text-shadow: 5px 2px 4px;
+}
+
+
